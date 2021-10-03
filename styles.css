@@ -1,3 +1,7 @@
+border {
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -115,7 +119,7 @@ hr {
 
 .no-hover-view,
 .hover-view {
-  transition: all 1s ease;
+  transition: all 500ms ease;
 }
 
 .hover-view {
@@ -134,8 +138,7 @@ hr {
 
 .job-element:hover > .hover-view {
   transform: translateX(0);
-  border: 1px solid yellow;
-  background-color: yellow;
+  background-color: white;
   color: black;
   border-radius: 5px;
 }
