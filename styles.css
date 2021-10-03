@@ -115,7 +115,7 @@ hr {
 
 .no-hover-view,
 .hover-view {
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 
 .hover-view {
